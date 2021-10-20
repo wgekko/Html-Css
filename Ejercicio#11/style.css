@@ -1,0 +1,22 @@
+table,
+th,
+td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 0.2em;
+    text-align: center;
+}
+
+tr th {
+    background-image: url("imagenes/fondo_gris.gif");
+}
+
+th[scope=row] {
+    background-color: #E6F3FF;
+    background-image: none;
+    text-align: left;
+}
+
+tr:nth-child(2n) {
+    background-color: #FFFFCC;
+}

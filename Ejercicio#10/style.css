@@ -1,0 +1,76 @@
+body {
+    font-weight: bold;
+}
+
+#titulo {
+    color: #238758;
+}
+
+p strong {
+    color: red;
+}
+
+.destacado {
+    color: #ffdb38;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+a {
+    color: red;
+}
+
+em {
+    color: blue;
+    font-weight: medium;
+}
+
+.especial {
+    color: #d12cc3;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: red;
+    border: 2px solid darkgray;
+    padding: 0.5em;
+}
+
+th.especial {
+    color: #ffdb38;
+}
+
+caption {
+    display: none;
+}
+
+td {
+    color: green;
+    border: 2px solid darkgray;
+    padding: 0.5em;
+}
+
+td em {
+    color: green;
+}
+
+td strong {
+    color: #ffdb38;
+}
+
+p {
+    color: #82b01e;
+}
+
+p>#especial {
+    color: #d12cc3;
+}
+
+p a {
+    color: green;
+}

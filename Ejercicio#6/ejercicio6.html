@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio#6</title>
+</head>
+
+<body>
+    <style>
+        div {
+            display: block;
+            margin: 1em;
+        }
+        
+        label {
+            display: block;
+        }
+    </style>
+    <h1>Registrar un usuario</h1>
+    <form action="">
+        <div>
+            <label for="">Nombre de usuario</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Contraseña del usuario</label>
+            <input type="password">
+        </div>
+        <div>
+            <label for="">Edad del usuario</label>
+            <input type="number">
+        </div>
+        <div>
+            <label for="">Fecha de nacimiento del usuario</label>
+            <input type="date">
+        </div>
+        <div>
+            <label>Sexo del usuario</label>
+            <input type="radio" name="sexo" value="Hombre">Hombre
+			<br>
+            <input type="radio" name="sexo" value="Mujer">Mujer
+			<br>
+            <input type="radio" name="sexo" value="Prefiero no decirlo">Otro
+        </div>
+        <div>
+            <label for="">Pais nacimiento del usuario</label>
+            <select name="pais">
+                <option value="undefined" selected disabled>-- Seleccione una opcion --</option>
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="brasil">Brasil</option>
+            </select>
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="submit">Borrar</button>
+    </form>
+</body>
+
+</html>
