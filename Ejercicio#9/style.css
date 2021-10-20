@@ -1,0 +1,29 @@
+li {
+    list-style: none;
+}
+
+i {
+    margin: 0 0.5em;
+    color: green;
+}
+
+p {
+    text-align: left;
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #1B1FDD;
+    display: table-row-group;
+    padding: 1em;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out; 
+	max-width: min-content;
+   
+}
+
+a:hover {
+    color: white;
+    background-color: #1B1FDD;
+}
